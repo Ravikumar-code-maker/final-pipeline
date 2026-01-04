@@ -1,0 +1,29 @@
+<project xmlns="maven.apache.org" xmlns:xsi="www.w3.org"
+  xsi:schemaLocation="maven.apache.org maven.apache.org">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.org.demo</groupId>
+  <artifactId>enterprise-web-app</artifactId>
+  <packaging>war</packaging>
+  <version>1.0.0-RELEASE</version>
+  <name>Enterprise Web App</name>
+
+  <dependencies>
+    <dependency>
+      <groupId>jakarta.servlet</groupId>
+      <artifactId>jakarta.servlet-api</artifactId>
+      <version>6.0.0</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <finalName>web-app</finalName>
+    <plugins>
+      <plugin>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.4.0</version>
+      </plugin>
+    </plugins>
+  </build>
+</project>
+
