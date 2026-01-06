@@ -2,7 +2,7 @@
 
 node {
     standardPipeline(
-        artifactId: 'enterprise-web-app',
+        artifactId: 'enterprise-web-app.war',
         groupId: 'com.org.demo',
         version: '1.0.0',
         nexusUrl: '107.178.223.130:8081',
